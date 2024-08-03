@@ -1,0 +1,11 @@
+# Install pytorch for cpu "torch"
+# or get the latest gpu version from: https://pytorch.org/get-started/locally/
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+
+
+# to install the requirements
+pip install -r requirements.txt
+
+
+# make sure to install everything in the virtual environment
